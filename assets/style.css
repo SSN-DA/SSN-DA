@@ -58,3 +58,8 @@ section h2 { margin: 0 0 16px; font-size: 1.3rem; color: var(--accent); }
 footer { padding: 28px 0 48px; color: var(--muted); font-size: 0.9rem; }
 a { color: var(--accent); }
 @media (max-width: 600px) { header.hero h1 { font-size: 1.9rem; } }
+.hero-top { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-bottom: 8px; }
+.photo {
+  width: 140px; height: 140px; border-radius: 50%;
+  object-fit: cover; border: 3px solid var(--accent);
+}
